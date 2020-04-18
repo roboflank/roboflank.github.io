@@ -53,7 +53,7 @@
             "highlights": [],
             "position": "Full Stack ",
             "startDate": "2019-01-31",
-            "summary": "Design of hardware sensors that plug into a car and passively collects performance and engine status data realtime. The data is send to our cloud platform that processes & analyses it for any anomalies.\n\nOur platform then sends recommendation to the client's app on where and how much they can get repair services in selected garages.",
+            "summary": "Design of hardware sensors that plug into a car and passively collects performance and engine status data realtime. The data is send to a cloud platform that processes & analyses it for any anomalies.\n\The platform sends recommendation to the client's app on where and how much they can get repair services in selected garages.",
             "website": ""
           },
           {
@@ -147,7 +147,7 @@
             "keywords": ["K8S", "Terraform", "CI/CD"]
         },
         {
-            "name": "Cross-Platform Mobile Apps",
+            "name": "Cross-Platform Apps",
             "level": "Master",
             "value": 70,
             "keywords": ["React Native", "Flutter", "Ionic"]
