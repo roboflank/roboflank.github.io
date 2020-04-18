@@ -6,7 +6,7 @@
         "email": "denzjoseph@gmail.com",
         "phone": "(254) 771749772",
         "website": "https://wamburu.codes",
-        "summary": "Build insanely brilliant & simple products that change lives.",
+        "summary": "Building insanely brilliant & simple products that change lives.",
         "location": {
             "address": "Nairobi",
             "postalCode": "",
@@ -180,7 +180,7 @@
         {
             "name": "Mobile Alert Toilets",
             "description": "Sensor & predictions based toilets to prevent overflows.",
-            "images": ["https://www.dropbox.com/s/vjekkrvhcfir4fa/photo5823690107226534571.jpg?dl=1"]
+            "images": []
         }
     ],
     "specific": {
@@ -202,10 +202,10 @@
         },
         "education": { "studiesLevel": 5 },
         "work": {
-            "contractTypes": ["permanent"],
+            "contractTypes": ["permanent", "fixedTerm", "freelance"],
             "codingYears": 4,
-            "codingReason": "Superpower to change the world.",
-            "searchState": "activelySearching",
+            "codingReason": "Superpower to change the world & empower lives.",
+            "searchState": "openOpportunities",
             "experienceYears": 3
         },
         "sound": {
@@ -215,18 +215,18 @@
     },
     "resumeCustomization": {
         "imageHeader": {
-            "url": "https://avatars0.githubusercontent.com/u/6532631",
+            "url": "https://i.ibb.co/vcy2192/My-Post-1.png",
             "alt": "Default Banner"
         },
         "cardsOrder": [
             { "type": "basics", "variant": 4 },
-            { "type": "projects", "variant": 5 },
             { "type": "skills", "variant": 0 },
-            { "type": "dreamjob", "variant": 4 },
             { "type": "experiences", "variant": 4 },
+            { "type": "projects", "variant": 5 },
+            { "type": "interestedBy", "variant": 3 },
+            { "type": "dreamjob", "variant": 4 },
             { "type": "studies", "variant": 4 },
             { "type": "gifs", "variant": 0 },
-            { "type": "interestedBy", "variant": 3 },
             { "type": "language", "variant": 4 },
             { "type": "soundtrack", "variant": 4 }
         ],
