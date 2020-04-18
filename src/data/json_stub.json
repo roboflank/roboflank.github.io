@@ -1,0 +1,239 @@
+{
+    "basics": {
+        "name": "Denzel Wamburu",
+        "label": "Software & Mechatronics Engineer",
+        "picture": "https://avatars0.githubusercontent.com/u/6532631",
+        "email": "denzjoseph@gmail.com",
+        "phone": "(254) 771749772",
+        "website": "https://wamburu.codes",
+        "summary": "Build insanely brilliant & simple products that change lives.",
+        "location": {
+            "address": "Nairobi",
+            "postalCode": "",
+            "city": "Nairobi",
+            "countryCode": "KE",
+            "region": "Nairobi"
+        },
+        "profiles": [
+            {
+                "network": "Twitter",
+                "username": "denzelwamburu",
+                "url": "http://twitter.com/denzelwamburu"
+            },
+            {
+                "network": "Github",
+                "username": "wamburu",
+                "url": "http://github.com/wamburu"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "wamburu",
+                "url": "https://www.linkedin.com/in/wamburu/"
+            },
+            {
+                "network": "Instagram",
+                "username": "denzellities",
+                "url": "https://www.instagram.com/denzellities/"
+            }
+        ]
+    },
+    "work": [
+        {
+            "name": "UN-Habitat",
+            "endDate": "2019-11-30",
+            "highlights": [],
+            "position": "Technical Consultant",
+            "startDate": "2019-08-31",
+            "summary": "Working on Internet of Things technology for monitoring Water and Sanitation Systems with analytics & early warning predictions platform.",
+            "website": "https://www.linkedin.com/company/1432006"
+          },
+          {
+            "name": "Autonix Carbide Limited",
+            "endDate": "2019-08-31",
+            "highlights": [],
+            "position": "Full Stack ",
+            "startDate": "2019-01-31",
+            "summary": "Design of hardware sensors that plug into a car and passively collects performance and engine status data realtime. The data is send to our cloud platform that processes & analyses it for any anomalies.\n\nOur platform then sends recommendation to the client's app on where and how much they can get repair services in selected garages.",
+            "website": ""
+          },
+          {
+            "name": "Zelta Technologies",
+            "endDate": "2019-01-31",
+            "highlights": [],
+            "position": "Machine Learning Engineer",
+            "startDate": "2018-08-31",
+            "summary": "Developed Computer Vision model to aide in dermatology diagnosis and recommendations. \n\nIntegrated models with mobile app and data pipelines.",
+            "website": "https://www.linkedin.com/company/18765588"
+          },
+          {
+            "name": "Soluff Ltd",
+            "endDate": "2018-08-31",
+            "highlights": [],
+            "position": "Product Architect",
+            "startDate": "2018-02-28",
+            "summary": null,
+            "website": ""
+          },
+          {
+            "name": "Cesanta",
+            "endDate": "2017-08-31",
+            "highlights": [],
+            "position": "Embedded Software Engineer",
+            "startDate": "2017-06-30",
+            "summary": "Contributed to open source development of command line tools for continuous integration, unit tests, cloud deployments & over the air updates to on/off-field hardware devices.",
+            "website": "https://www.linkedin.com/company/3712691"
+          }
+    ],
+    "volunteer": [
+        {
+            "organization": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY (DeKUT)",
+            "position": "Robotics Software Engineer",
+            "website": "https://www.linkedin.com/company/3285579",
+            "startDate": "2016-01-31",
+            "endDate": "2017-08-31",
+            "summary": "Worked on cutting age embedded & computer vision software that powered the bot through various challenges",
+            "highlights": ["Won back to back Best Robotics in inter-university competition"]
+        }
+    ],
+    "education": [
+        {
+            "institution": "DEDAN KIMATHI UNIVERSITY OF TECHNOLOGY (DeKUT)",
+            "area": "Mechatronics, Robotics, and Automation Engineering",
+            "studyType": "Bachelor of Science - BS",
+            "startDate": "2014-12-31",
+            "endDate": "2018-12-31",
+            "gpa": "",
+            "courses": []
+        }
+    ],
+    "awards": [
+        {
+            "title": "Iko-Safi Innovation Award",
+            "date": "2019-08-31",
+            "awarder": "Kenya Ministry of Water & Sanitation",
+            "summary": "Best University/ Technical Institutions Innovations"
+        }
+    ],
+    "publications": [],
+    "skills": [
+        {
+            "name": "BackEnd",
+            "level": "Master",
+            "value": 90,
+            "keywords": ["Node", "Python", "Cloud"]
+        },
+        {
+            "name": "FrontEnd",
+            "level": "Master",
+            "value": 80,
+            "keywords": ["React", "Angular", "CSS"]
+        },
+        {
+            "name": "ML",
+            "level": "Intermediary",
+            "value": 40,
+            "keywords": ["Supervised Learning", "Recommendation Engines", "Classification", "Regression"]
+        },
+        {
+            "name": "Firmware",
+            "level": "Master",
+            "value": 60,
+            "keywords": ["C++", "C", "Arduino"]
+        },
+        {
+            "name": "DevOps",
+            "level": "Master",
+            "value": 40,
+            "keywords": ["K8S", "Terraform", "CI/CD"]
+        },
+        {
+            "name": "Cross-Platform Mobile Apps",
+            "level": "Master",
+            "value": 70,
+            "keywords": ["React Native", "Flutter", "Ionic"]
+        }
+    ],
+    "languages": [
+        { "language": "English", "value": 100, "fluency": "First Language" },
+        { "language": "Swahili", "value": 100, "fluency": "Native speaker" }
+    ],
+    "interests": [
+        {
+            "name": "Tinkering",
+            "gifUrl": "https://media.giphy.com/media/pIMlKqgdZgvo4/giphy.gif"
+        },
+        {
+            "name": "Cooking",
+            "gifUrl": "https://media.giphy.com/media/102xzU5V7M1YOs/giphy.gif"
+        },
+        {
+            "name": "Travelling",
+            "gifUrl": "https://media.giphy.com/media/toelXGUsYD6vtCN408/giphy.gif"
+        },
+        {
+            "name": "Gaming",
+            "gifUrl": "https://media.giphy.com/media/FMapondVtL2Fi/giphy.gif"
+        }
+    ],
+    "references": [{ "name": "Jane Doe", "reference": "Reference..." }],
+    "projects": [
+        {
+            "name": "Mobile Alert Toilets",
+            "description": "Sensor & predictions based toilets to prevent overflows.",
+            "images": ["https://www.dropbox.com/s/vjekkrvhcfir4fa/photo5823690107226534571.jpg?dl=1"]
+        }
+    ],
+    "specific": {
+        "basics": {
+            "visaSponsorship": true,
+            "personalDescription": "Excited about the future, working to turn science fiction into reality 😉."
+        },
+        "dreamJob": {
+            "locations": [
+                { "name": "London, UK" },
+                { "name": "Ontario, Canada" },
+                { "name": "California, USA" },
+                { "name": "Singapore, Singapore" }
+            ],
+            "remoteFrequency": "regularly"
+        },
+        "currentJob": {
+            "issues": { }
+        },
+        "education": { "studiesLevel": 5 },
+        "work": {
+            "contractTypes": ["permanent"],
+            "codingYears": 4,
+            "codingReason": "Superpower to change the world.",
+            "searchState": "activelySearching",
+            "experienceYears": 3
+        },
+        "sound": {
+            "embedUrl": "https://open.spotify.com/embed/playlist/28gkj3su0EjS9tD20XTG9T"
+        },
+        "interestedBy": "AI Systems, Web Dev, Robotics, Entrepreneurship"
+    },
+    "resumeCustomization": {
+        "imageHeader": {
+            "url": "https://avatars0.githubusercontent.com/u/6532631",
+            "alt": "Default Banner"
+        },
+        "cardsOrder": [
+            { "type": "basics", "variant": 4 },
+            { "type": "projects", "variant": 5 },
+            { "type": "skills", "variant": 0 },
+            { "type": "dreamjob", "variant": 4 },
+            { "type": "experiences", "variant": 4 },
+            { "type": "studies", "variant": 4 },
+            { "type": "gifs", "variant": 0 },
+            { "type": "interestedBy", "variant": 3 },
+            { "type": "language", "variant": 4 },
+            { "type": "soundtrack", "variant": 4 }
+        ],
+        "fields": {
+            "work": {
+                "customDateFormat": "YYYY"
+            }
+        }
+    }
+}
