@@ -1,1 +1,1 @@
-export const DEFAULT_PROJECT_IMAGE = 'https://i.ibb.co/njmZ4pK/pakata-goh-EJMTKCZ00-I0-unsplash.jpg';
+export const DEFAULT_PROJECT_IMAGE = 'https://cdn.filestackcontent.com/resize=w:500/compress/dLXE4WC8S3mZFZNfClTK';

@@ -7,6 +7,7 @@ import { ReactComponent as TwitterIcon } from '../../../assets/icons/brands/twit
 import { ReactComponent as LinkedInIcon } from '../../../assets/icons/brands/linkedin.svg';
 import { ReactComponent as ShareIcon } from '../../../assets/icons/share.svg';
 
+
 export const SHARE_LINKS_DATA = Object.freeze({
     twitter: {
         icon: TwitterIcon,
@@ -39,3 +40,4 @@ export const SHARE_LINKS_DATA = Object.freeze({
         tooltipTranslation: <FormattedMessage id="Footer.shareLinks.copyUrl" defaultMessage="Copy profile's URL" />
     }
 });
+

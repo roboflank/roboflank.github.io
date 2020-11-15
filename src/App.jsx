@@ -15,15 +15,14 @@ import { ReactComponent as SaveIcon } from './package/assets/icons/drop_file.svg
 import { styles } from './app_styles';
 
 const useStyles = createUseStyles(styles);
-const mergeFunction = (objValue, srcValue, key) => {
-    console.log({ objValue, srcValue, key });
+const mergeFunction = (objValue, srcValue) => {
     if (!objValue || isArray(objValue)) {
         return srcValue;
     }
     return undefined;
 };
 
-const mode = process.env.REACT_APP_MODE || 'readOnly';
+const mode = process.env.REACT_APP_MODE || 'edit';
 
 function App() {
     const classes = useStyles();
@@ -55,6 +54,7 @@ function App() {
             onEdit={onEdit}
             onCustomizationChanged={onCustomizationChanged}
             options={{
+                // locale: 'tr',
                 // side: 'back',
                 apiKeys: {
                     giphy: process.env.REACT_APP_GIPHY
@@ -63,7 +63,12 @@ function App() {
                     devicons:
                         'https://firebasestorage.googleapis.com/v0/b/jechercheundev.appspot.com/o/technologies%2Ftechnologies_list.json?alt=media&token=459028ba-d9bc-4480-a3c4-88633afab7e2'
                 },
-                customization
+                // dismissFooter : true
+                // showContactInfos: true,
+                // maxSkills: 6,
+                customization,
+                disableSortableExperience: false,
+                maxCardsPerRow: 3
             }}
             additionalNodes={{
                 banner: {

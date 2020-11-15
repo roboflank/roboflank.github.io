@@ -29,6 +29,7 @@ const PalettesListComponent = ({ value: currentPalette, onChange, classes: recei
 
     const onSelectChanged = useCallback(
         (value) => () => {
+            console.log(value)
             const [primary, secondary, tertiary] = value;
             return onChange({
                 primary: buildShadedPalette(primary),
@@ -79,7 +80,7 @@ const PalettesListComponent = ({ value: currentPalette, onChange, classes: recei
                     >
                         <Typography
                             color="dark"
-                            customClasses={{
+                            classes={{
                                 container: classes.selectablePaletteIndex
                             }}
                             variant="h3"
