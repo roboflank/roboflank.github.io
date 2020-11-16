@@ -10,12 +10,19 @@ import './styles/animations.css';
 import { create } from 'jss';
 import { JssProvider } from 'react-jss';
 import jssDefaultPreset from 'jss-preset-default';
+import { jssPreset } from "@material-ui/core/styles";
 
 const muiInstance = create(jssDefaultPreset());
 muiInstance.setup({ insertionPoint: 'mui-insertion-point' });
 const jssinstance = create(jssDefaultPreset());
 jssinstance.setup({ insertionPoint: 'jss-insertion-point' });
 
+
+
+const jss = create({
+  ...jssPreset(),
+  insertionPoint: "jss-insertion-point"
+});
 export const theme = createMuiTheme({
     ...DEFAULT_THEME,
     spacing: 8,
@@ -25,14 +32,18 @@ export const theme = createMuiTheme({
         return accCopy;
     }, DEFAULT_THEME.palette)
 });
+const jssStyleNode = document.createComment('insertion-point-jss');
+const muiStyleNode = document.createComment('mui-insertion-point');
+document.head.insertBefore(jssStyleNode, document.head.firstChild);
+document.head.insertBefore(muiStyleNode, document.head.firstChild);
 
 ReactDOM.render(
-    <MuiStylesProvider jss={muiInstance}>
+    <MuiStylesProvider jss={muiInstance} injectFirst>
         <JssProvider jss={jssinstance}>
             <ThemeProvider {...{ theme }}>
                 <App />
             </ThemeProvider>
         </JssProvider>
     </MuiStylesProvider>,
-    document.getElementById('root')
+    document.getElementById('root') 
 );
