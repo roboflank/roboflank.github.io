@@ -16,12 +16,16 @@ export const CustomizeButton = ({ customizationOptions }) => {
     const [dialogOpen, open, close] = useCallbackOpen();
     const classes = useStyles();
     const isMobile = useMediaQuery('(max-width:500px)', { defaultMatches: true });
-
+    const downloadResume = () => {
+        window.location.assign(
+            'https://raw.githubusercontent.com/wamburu/njiiri.design/resume/src/package/assets/Denzel_Wamburu_CV.pdf'
+        );
+    };
     return (
         <>
             <CustomizeDialog open={dialogOpen} onClose={close} customizationOptions={customizationOptions} />
-            <Button variant="outlined" color="light" onClick={open}>
-                <Twemoji svg text="🎨" className={classes.icon} />
+            <Button variant="outlined" color="light" onClick={downloadResume}>
+                <Twemoji svg text="🖨️" className={classes.icon} />
                 {!isMobile && formatMessage(translations.customize)}
             </Button>
         </>
