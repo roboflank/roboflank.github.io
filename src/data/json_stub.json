@@ -190,10 +190,11 @@
         },
         "dreamJob": {
             "locations": [
-                { "name": "London, UK" },
-                { "name": "Ontario, Canada" },
-                { "name": "California, USA" },
-                { "name": "Singapore, Singapore" }
+                { "name": "Full/Semi Remote" },
+                { "name": "USA" },
+                { "name": "Canada" },
+                { "name": "Europe" },
+                { "name": "Asia" }
             ],
             "remoteFrequency": "regularly"
         },

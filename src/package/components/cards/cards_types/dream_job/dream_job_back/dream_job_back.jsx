@@ -97,14 +97,15 @@ const DreamJobLocations = ({ remoteFrequency, places, classes }) => {
 
     return (
         <>
+            {remoteFrequency &&
+                formatMessage(remoteDisplayTranslations[remoteFrequency] || remoteDisplayTranslations.others)}
+            <br />
+
             <ProfileCardSectionTitle>
                 <FormattedMessage id="Dreamjob.Back.Location.Title" defaultMessage="My dreamjob location" />
             </ProfileCardSectionTitle>
             <ProfileCardSectionText>
                 <DreamJobPlaces places={places} classes={classes} />
-                <br />
-                {remoteFrequency &&
-                    formatMessage(remoteDisplayTranslations[remoteFrequency] || remoteDisplayTranslations.others)}
             </ProfileCardSectionText>
         </>
     );
