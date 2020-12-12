@@ -30,7 +30,7 @@ const CARD_TYPE_MAPPING = {
     experiences: ExperiencesCard,
     studies: StudiesCard,
     skills: SkillsCard,
-    soundtrack: SoundtrackCard,
+    // soundtrack: SoundtrackCard,
     interestedBy: InterestedByCard
 };
 
