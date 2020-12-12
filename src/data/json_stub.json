@@ -117,7 +117,7 @@
     "publications": [],
     "skills": [
         {
-            "name": "Fullstack",
+            "name": "BackEnd",
             "level": "Master",
             "value": 90,
             "keywords": ["Node", "Python", "Cloud"]
